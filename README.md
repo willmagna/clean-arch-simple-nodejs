@@ -106,7 +106,7 @@ cp .env.example .env
 Edit `.env` with your PostgreSQL connection string:
 
 ```
-DATABASE_URL=postgres://postgres:8fa39823ff7fc4721c7e268da943b2fe75aad87cb1aa4cefd99b89c16d26@localhost:5432/clean_arch_db?schema=public
+DATABASE_URL=postgres://postgres:a6d86202fec026e664a92019ff58cdbeb573f82737ad1601915aa51f047f@localhost:5432/clean_arch_db?schema=public
 ```
 
 ### 4. Run migrations
