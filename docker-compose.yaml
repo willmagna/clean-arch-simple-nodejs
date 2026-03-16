@@ -9,7 +9,7 @@ services:
       - 5432:5432
     environment:
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: <password>
+      POSTGRES_PASSWORD: a6d86202fec026e664a92019ff58cdbeb573f82737ad1601915aa51f047f
       POSTGRES_DB: clean_arch_db
       TZ: "America/Sao_Paulo"
     volumes:
