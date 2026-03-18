@@ -2,7 +2,7 @@ import { Router } from "express";
 import { PrismaUserRepository } from "../repositories/PrismaUserRepository.js";
 import { CreateUserUseCase } from "../../application/use-cases/CreateUserUseCase.js";
 import { CreateUserController } from "../../presentation/controllers/CreateUserController.js";
-import { adaptExpressRoute } from "../../../../shared/adapters/expressRouteAdapter.js";
+import { adaptExpressRoute } from "../../../../infra/http/adapters/expressRouteAdapter.js";
 
 const userRoutes = Router();
 

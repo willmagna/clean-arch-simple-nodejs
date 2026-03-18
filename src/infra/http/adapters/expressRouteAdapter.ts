@@ -1,5 +1,5 @@
 import { Request, Response, NextFunction } from "express";
-import { Controller } from "../../modules/users/presentation/protocols/Controller.js";
+import { Controller } from "../../../modules/users/presentation/protocols/Controller.js";
 
 export function adaptExpressRoute(controller: Controller) {
   return async (req: Request, res: Response, next: NextFunction) => {
